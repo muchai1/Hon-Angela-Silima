@@ -1,0 +1,52 @@
+.container-fluid{
+    max-width: 1230px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+     background: aliceblue;
+    display: grid;
+    grid-template-areas:
+    "navbar navbar navbar navbar navbar navbar navbar"
+    "imageprofile imageprofile imageprofile personname personname personname personname"
+    "introduction introduction introduction introduction introduction introduction introduction"
+    "biography biography biography biograpy biography biography biography "
+    "personallife personallife personallife personallife personallife personallife personallife"
+    "work work work work work work work  "
+    "socials socials socials socials socials socials socials"
+
+}
+.body{
+    font-family:Arial, sans-serif ;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin: auto;
+    align-items: center;
+    h1 {
+        text-decoration: blueviolet;
+        text-align: center;
+        justify-content:center;
+
+
+        }
+        img {
+            justify-content: flex-start;
+            border-radius: 8px;
+            object-fit: initial;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    }
+.nav4{
+    background: blanchedalmond;
+    color: aliceblue;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
